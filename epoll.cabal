@@ -2,7 +2,7 @@ name:               epoll
 version:            0.2.3
 synopsis:           epoll bindings
 description:        Bindings to epoll, a Linux specific I/O
-                    event notication facility (cf. man epoll(7)).
+                    event notification facility (cf. man epoll(7)).
 category:           System
 license:            LGPL
 license-file:       LICENSE
@@ -11,7 +11,7 @@ maintainer:         toralf.wittner@gmail.com
 copyright:          Copyright (c) 2009 Toralf Wittner
 homepage:           http://github.com/twittner/epoll/
 stability:          experimental
-tested-With:        GHC == 6.12.1
+tested-With:        GHC == 8.0.2
 cabal-version:      >= 1.6.0
 build-type:         Simple
 extra-source-files: README, examples/*.hs
